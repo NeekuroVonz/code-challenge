@@ -29,4 +29,4 @@
 
 **Solution:** Use a unique key like ```balance.currency```. That way, React knows exactly who’s who, and there's no confusion — it’s like giving each person at the party a name tag.
 
-## [Click here for the new code (not actually lmao)](https://choosealicense.com/licenses/mit/)
+## [Click here for the new code (not actually lmao)](https://github.com/NeekuroVonz/code-challenge/blob/main/src/problem3/refactor.md)
