@@ -64,7 +64,7 @@ function sum_to_n_c(n: number): number {
 ---
 
 ## ▶️ Example Output
-Running `npx ts-node problem4.ts` with `n = 5`:
+Running `npm install` then `npx ts-node problem4.ts` with `n = 5`:
 
 ```
 15
@@ -77,4 +77,3 @@ Running `npx ts-node problem4.ts` with `n = 5`:
 ## ✅ Notes
 - Solutions assume input `n` is a positive integer.
 - All outputs fit within `Number.MAX_SAFE_INTEGER`.
-- For production usage, prefer the **formula approach** (`sum_to_n_b`) for efficiency.

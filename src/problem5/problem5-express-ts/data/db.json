@@ -1,0 +1,17 @@
+{
+  "lastId": 1,
+  "resources": [
+    {
+      "id": 1,
+      "name": "First",
+      "description": "",
+      "price": 9.99,
+      "status": "INACTIVE",
+      "tags": [
+        "alpha"
+      ],
+      "createdAt": "2025-09-19T15:16:06.924Z",
+      "updatedAt": "2025-09-19T15:16:54.935Z"
+    }
+  ]
+}
