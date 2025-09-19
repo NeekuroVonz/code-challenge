@@ -102,7 +102,7 @@ Authorization: Bearer <token>
 
 ```mermaid
 flowchart TD;
-    A[User performs action] --> B[Client (Browser/App)];
+    A[User performs action] --> B[Client -Browser/App-];
     B --> C[API Server];
     C --> D[Auth & Validation];
     D --> E[Update Score in Database];
