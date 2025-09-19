@@ -101,15 +101,15 @@ Authorization: Bearer <token>
 <summary>Mermaid fallback (in case image doesn’t render)</summary>
 
 ```mermaid
-flowchart TD
-    A[User performs action] --> B[Client (Browser/App)]
-    B --> C[API Server]
-    C --> D[Auth & Validation]
-    D --> E[Update Score in Database]
-    E --> F[New Score + Rank Response]
-    F --> B
-    C --> G[Broadcast via WebSocket/SSE]
-    G --> H[All Connected Clients]
+flowchart TD;
+    A[User performs action] --> B[Client (Browser/App)];
+    B --> C[API Server];
+    C --> D[Auth & Validation];
+    D --> E[Update Score in Database];
+    E --> F[New Score + Rank Response];
+    F --> B;
+    C --> G[Broadcast via WebSocket/SSE];
+    G --> H[All Connected Clients];
 ```
 
 </details>
