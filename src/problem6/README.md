@@ -103,7 +103,7 @@ Authorization: Bearer <token>
 ```mermaid
 flowchart TD
     A[User performs action] --> B[Client (Browser/App)]
-    B -->|POST /api/score/increment (JWT)| C[API Server]
+    B --> C[API Server]
     C --> D[Auth & Validation]
     D --> E[Update Score in Database]
     E --> F[New Score + Rank Response]
@@ -111,6 +111,7 @@ flowchart TD
     C --> G[Broadcast via WebSocket/SSE]
     G --> H[All Connected Clients]
 ```
+
 </details>
 ---
 
